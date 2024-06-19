@@ -4,7 +4,7 @@
 }
 
 .bio {
-    background-image: url('../img/logo\ FSR.png');
+    background-image: url('../img/sfondo\ foto.png');
     background-position: center;
     padding: 100px 150px 50px;
     text-align: center;
@@ -18,16 +18,16 @@
 .photo {
     width: 170px;
     height: 170px;
-    background-image: url('../img/profile-photo.jpg');
-    background-size: cover;
+    background-image: url('../img/logo\ FSR\ bianco.png');
+    background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 50%;
+    <:disabled> border-radius: 50%; 
     margin: auto;
     margin-bottom: 20px;
 }
 
 .bio-description {
-    color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
 }
 
 .bio-description h2 {
